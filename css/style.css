@@ -47,12 +47,15 @@ video{
 }
 
 p{
+    width: 50%;
     position: absolute;
-    top: 35%;
-    left: 50%;
+    top: 30%;
+    left: 25%;
     transform: translate(-50%, -50%);
     text-transform: uppercase; 
     color: rgba(200, 50, 0, .8);
+    transform: scale(1);
+    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
     animation: scende;
     animation-duration: 4s;
 }
@@ -62,10 +65,12 @@ a{
     color: black;
     border: 1px solid black;
     background-color: rgba(200, 50, 0, .8);
+    opacity: 1;
     padding: .5rem;
     border-radius: 10px;
+    transform: scale(1);
     position: absolute;
-    bottom: 25%;
+    bottom: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation: appair;
@@ -84,25 +89,23 @@ a{
     }
 }
 
-@keyframes appair {
+@keyframes appair{
     0%{
-        bottom: -10%;
-        left: 50%;
+        opacity: 0;
     }
+
     100%{
-        bottom: 25%;
-        left: 50%;
+        opacity: 1;
     }
 }
 
 @keyframes scende {
     0%{
-        top: -10%;
-        left: 50%;
+        transform: scale(0);
     }
+
     100%{
-        top: 35%;
-        left: 50%;
+        transform: scale(1);
     }
 } 
 

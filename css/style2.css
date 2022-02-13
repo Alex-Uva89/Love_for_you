@@ -20,7 +20,7 @@ html{
     height: 50%;
     background-image: url(../img/WhatsApp\ Image\ 2022-01-10\ at\ 15.19.14.jpeg);
     background-size: cover;
-    border: 1px solid rgba(0, 50, 200, .9);
+    border: 1px solid white;
     border-radius: 10px;
     filter: opacity(70%);
     position: absolute;
@@ -52,15 +52,16 @@ p{
     left: 50%;
     transform: translate(-50%, -50%); 
     text-transform: uppercase; 
-    color: white;
+    color: rgba(3, 79, 155, 0.8);
+    text-shadow: -.5px 0 white, 0 .5px white, .5px 0 white, 0 -.5px white;
     animation: scende;
     animation-duration: 4s;
 }
 
 a{
     text-decoration: none;
-    color: black;
-    border: 1px solid black;
+    color: white;
+    border: 1px solid white;
     background-color: rgba(0, 50, 100, .8);
     padding: .5rem;
     border-radius: 10px;
