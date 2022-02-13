@@ -18,7 +18,7 @@ html{
 .container-center{
     width: 70%;
     height: 50%;
-    background-image: url(../img/815f463b-843f-44c8-ba9c-f068945af0e0.jpg);
+    background-image: url(../img/WhatsApp\ Image\ 2022-01-05\ at\ 14.40.04.jpeg);
     background-size: cover;
     border: 1px solid rgba(0, 50, 200, .9);
     border-radius: 10px;
@@ -52,16 +52,16 @@ p{
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase; 
-    color: rgba(200, 50, 0, .8);
+    color: rgba(252, 235, 4 , 1);
     animation: scende;
-    animation-duration: 4s;
+    animation-duration: 6s;
 }
 
 a{
     text-decoration: none;
     color: black;
     border: 1px solid black;
-    background-color: rgba(200, 50, 0, .8);
+    background-color: rgba(252, 235, 4 , 1);
     padding: .5rem;
     border-radius: 10px;
     position: absolute;
@@ -97,12 +97,10 @@ a{
 
 @keyframes scende {
     0%{
-        top: -10%;
-        left: 50%;
+        color: rgba(252, 235, 4 , -1);
     }
     100%{
-        top: 35%;
-        left: 50%;
+        color: rgba(252, 235, 4 , 1);
     }
 } 
 
